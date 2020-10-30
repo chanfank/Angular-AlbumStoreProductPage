@@ -30,11 +30,6 @@ const appRoutes: Routes= [
     FormsModule,
     HttpModule,
     RouterModule.forRoot(appRoutes)
-    // RouterModule.forRoot([
-    //   {path: 'products', component:ProductListComponent},
-    //   {path: 'product/:id', component:ProductPageComponent},
-    //   {path: '', redirectTo:'products', 'pathMatch':'full'}
-    // ])
   ],
   providers: [ProductService],
   bootstrap: [AppComponent]
